@@ -37,32 +37,32 @@ const Testimonials =() => {
         <div className='testimonials-2'>
             <div className='customer-1'>
               <div className='bg-2'>
-                <img src={bg2} width="437" height="295"/>
+                <img src={bg2} width="437" height="295" alt='bg2'/>
               </div>
               <div className='customer'>
                 <div className='stars'>
-                  {testimonials[0]?.rating && Array.from({ length: testimonials[0].rating }).map((_, i) => (
+                  {testimonials[2]?.rating && Array.from({ length: testimonials[2].rating }).map((_, i) => (
                     <img key={i} src={stars} width="19.36" height="19" alt="star"/>
                   ))}
                 </div>
                 <p className='paragraph-4'>Lorem ipsum dolor sit amet, consectetur adipis<br/>cing elit. Ut libero lectus, porta nec turpis sit<br/>amet, lobortis fringilla ante.</p>
                 <div className='avatar'>
-                  {testimonials[0]?.avatarUrl && (
-                    <img src={testimonials[0].avatarUrl} alt="Client Avatar"/>
-                    )}
+                  {testimonials[1]?.avatarUrl && (
+                    <img src={testimonials[1].avatarUrl} alt="Client Avatar"/>
+                  )}
                     <div className='avatar-1'>
                       <h6>Aiden Harvey</h6>
                       <p className='paragraph-4'>Customer</p>
                     </div>
                     <div className='comma'>
-                      <img src={comma} width="52.52" height="37.33"/>
+                      <img src={comma} width="52.52" height="37.33" alt='comma'/>
                     </div>
                 </div>
               </div>
             </div>
             <div className='customer-2'>
               <div className='bg-2'>
-                <img src={bg2} width="437" height="295"/>
+                <img src={bg2} width="437" height="295" alt='bg2'/>
               </div>
               <div className='customer'>
                 <div className='stars'>
@@ -72,47 +72,46 @@ const Testimonials =() => {
                 </div>
                 <p className='paragraph-4'>Lorem ipsum dolor sit amet, consectetur adipis<br/>cing elit. Ut libero lectus, porta nec turpis sit<br/>amet, lobortis fringilla ante.</p>
                 <div className='avatar'>
-                  {testimonials[1]?.avatarUrl &&(
-                    <img src={testimonials[1].avatarUrl} alt='Client Avatar'/>
+                  {testimonials[2]?.avatarUrl &&(
+                    <img src={testimonials[2].avatarUrl} alt='Client Avatar'/>
                   )}
                   <div className='avatar-1'>
                     <h6>Carrisa Jocelyn</h6>
                     <p className='paragraph-4'>Customer</p>
                   </div>
                   <div className='comma'>
-                    <img src={comma} width="52.52" height="37.33"/>
+                    <img src={comma} width="52.52" height="37.33" alt='comma'/>
                   </div>
                 </div>
               </div>
             </div>
             <div className='customer-3'>
               <div className='bg-2'>
-                <img src={bg2} width="437" height="295"/>
+                <img src={bg2} width="437" height="295" alt='bg2'/>
               </div>
               <div className='customer'>
                 <div className='stars'>
-                  {testimonials[2]?.rating && Array.from({length:testimonials[2].rating}).map((_,i)=>(
-                    <img key={i} src={stars} width="19.36" height="19" alt='star'/>
+                  {testimonials[0]?.rating && Array.from({length:testimonials[0].rating}).map((_,i)=>(
+                    <img key={i} src={stars} width="19.36" height="19" alt="star"/>
                   ))}
-                </div>
+                </div> 
+              </div>
                 <p className='paragraph-4'>Lorem ipsum dolor sit amet, consectetur adipis<br/>cing elit. Ut libero lectus, porta nec turpis sit<br/>amet, lobortis fringilla ante.</p>
                 <div className='avatar'>
-                  {testimonials[2]?.avatarUrl &&(
-                    <img src={testimonials[2].avatarUrl} alt='Client Avatar'/>
+                  {testimonials[0]?.avatarUrl &&(
+                    <img src={testimonials[0].avatarUrl} alt='Client Avatar'/>
                   )}
                   <div className='avatar-1'>
                     <h6>Celvin Gabriel</h6>
                     <p className='paragraph-4'>Customer</p>
                   </div>
                   <div className='comma'>
-                    <img src={comma} width="52.52" height="37.33"/>
+                    <img src={comma} width="52.52" height="37.33" alt='comma'/>
                   </div>
                 </div>
                 
-              </div>
             </div>
-          
-        </div>
+          </div>
       </section>
     )
 }
