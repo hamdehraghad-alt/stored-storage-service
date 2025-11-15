@@ -23,7 +23,8 @@ function OurServices() {
         </div>
         
         <div className='bg-1'>
-            <img src={bg} width="519" height="327"/>
+            <img src={bg} width="519" height="327" alt='bg'/>
+feature/OurServices
         </div>
         <div className='our-services-3'>
             <div className='storage'>
