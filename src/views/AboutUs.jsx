@@ -4,8 +4,10 @@ import Navbar1 from '../components/Navbar1'
 import Aboutus from '../components/Aboutus'
 import Logoipsum from '../components/Logoipsum'
 import Banner from '../components/Banner'
-import ChooseUs from '../components/ChooseUs'
-import Testimonials from '../components/Testimonials'
+import ChooseUs1 from '../components/ChooseUs1'
+import Testimonials1 from '../components/Testimonials1'
+import OurSubscribe from '../components/OurSubscribe'
+
 
 function AboutUs() {
   return (
@@ -15,8 +17,9 @@ function AboutUs() {
       <Banner/>
       <Aboutus/>
       <Logoipsum/>
-      <Testimonials/>
-      <ChooseUs/>
+      <Testimonials1/>
+      <ChooseUs1/>
+      <OurSubscribe/>
     </div>
   )
 }
