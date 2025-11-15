@@ -9,6 +9,11 @@ import Testimonials from '../components/Testimonials'
 import ChooseUs from '../components/ChooseUs'
 import Looking from '../components/Looking'
 import Blog from '../components/Blog'
+import Pricingplan from '../components/Pricingplan'
+import OurSubscribe from '../components/OurSubscribe'
+
+
+
 
 
 function Home() {
@@ -22,8 +27,10 @@ function Home() {
       <OurServices/>
       <Testimonials/>
       <ChooseUs/>
+      <Pricingplan/>
       <Looking/>
       <Blog/>
+      <OurSubscribe/>
     </div>
   )
 }
