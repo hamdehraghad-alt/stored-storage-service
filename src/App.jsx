@@ -1,9 +1,3 @@
-import Navbar from "./components/Navbar"
-import Navbar1 from "./components/Navbar1"
-import Hero from "./components/Hero"
-import Aboutus from "./components/Aboutus"
-import Logoipsum from "./components/Logoipsum"
-import OurServices from "./components/OurServices"
 import Home from "./views/Home"
 import AboutUs from "./views/AboutUs"
 import Footer from "./components/Footer"
@@ -26,6 +20,7 @@ function App() {
           <Route path="/services" element={<Services/>}/>
           <Route path="/contactus" element={<ContactUs/>}/>
           <Route path="/booking" element={<Booking />} />
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
       </main>
       <Footer/>
