@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from '../assets/bg.svg';
-import Numbers from './Number.jsx';
+import Numbers from './number.jsx';
 import Discover from './Discover.jsx';
 import icon from '../assets/icon-2.svg';
 
