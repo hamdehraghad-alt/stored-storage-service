@@ -8,11 +8,11 @@ import Logoipsum5 from '../assets/Logoipsum-5.svg';
 function Logoipsum() {
   return (
     <div className='logoipsum'>
-      <img src={Logoipsum1} width="220" height="71"/>
-      <img src={Logoipsum2} width="220" height="71"/>
-      <img src={Logoipsum3} width="220" height="71"/>
-      <img src={Logoipsum4} width="220" height="71"/>
-      <img src={Logoipsum5} width="220" height="71"/>
+      <img src={Logoipsum1} width="220" height="71" alt='logoipsum'/>
+      <img src={Logoipsum2} width="220" height="71" alt='logoipsum'/>
+      <img src={Logoipsum3} width="220" height="71" alt='logoipsum'/>
+      <img src={Logoipsum4} width="220" height="71" alt='logoipsum'/>
+      <img src={Logoipsum5} width="220" height="71" alt='logoipsum'/>
     </div>
   )
 }
