@@ -1,8 +1,6 @@
 import React from 'react'
 import dollar from '../assets/dollar.svg';
-import checkIcon from '../assets/true.svg';
 import Rent from './Rent.jsx'
-import checkIcon1 from '../assets/true-1.svg'
 
 function PricingPlan() {
   return (
