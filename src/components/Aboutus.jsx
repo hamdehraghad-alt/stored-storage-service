@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from '../assets/bg.svg';
-import Numbers from './number.jsx';
+import Numbers from './Number.jsx';
 import Discover from './Discover.jsx';
 import icon from '../assets/icon-2.svg';
 
@@ -9,7 +9,7 @@ function Aboutus() {
     <div className='about-us'>
       <div className='about'>
         <div className='bg'>
-          <img src={bg} width="673px" height="441px"></img>
+          <img src={bg} width="673px" height="441px" alt='bg'></img>
         </div>
         <Numbers/>
       </div>
@@ -30,7 +30,7 @@ function Aboutus() {
         <div className='icon'>
           <Discover/>
           <div className='icon-1'>
-            <img src={icon} width="60" height="60"/>
+            <img src={icon} width="60" height="60" alt='bg'/>
           </div>
           <div className='information'>
             <h5>More Information</h5>
