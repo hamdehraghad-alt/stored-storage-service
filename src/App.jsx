@@ -5,6 +5,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Services from "./views/Services"
 import ContactUs from "./views/ContactUs"
 import Booking from "./views/Booking"
+import NotFound from "./views/NotFound"
 
 
 function App() {
