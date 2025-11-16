@@ -7,9 +7,6 @@ function Navbar1() {
   return (
     <div className="navbar-1">
       <Link className='logo' to="/home">
-
-      <img src={Logo} width="181px" height="59px"></img>
-
       <img src={Logo} width="181px" height="59px" alt='logo'></img> 
       </Link>
       <nav>
