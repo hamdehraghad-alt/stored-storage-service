@@ -86,7 +86,8 @@ body{
   cursor: pointer;
   transition: background-color 0.15s ease-in-out;
   &:hover{
-    background-color: hsl(48, 49%, 65%);
+    background-color: var(--bg-secondry);
+    color: var(--bg-primary);
   }
 }
 .submit1{
@@ -152,7 +153,8 @@ h1{
   transition: background-color 0.15s ease-in-out;
   cursor: pointer;
   &:hover{
-    background-color: hsl(48, 67%, 73%);
+    background-color: var(--bg-secondry);
+    color: var(--bg-primary);
   }
 }
 .discover-btn1{
