@@ -61,7 +61,7 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-            <div className='border-1'>
+            <div className='border-1 px-4'>
                 <div>
                     {blogs[1]?.imageUrl && (
                         <img src={blogs[1].imageUrl} alt="Blog image"/>
@@ -87,7 +87,7 @@ const Blog = () => {
                 </div>
 
             </div>
-            <div className='border-2'>
+            <div className='border-2 px-4'>
                 <div>
                     {blogs[0]?.imageUrl && (
                         <img src={blogs[0].imageUrl} alt="Blog image"/>
