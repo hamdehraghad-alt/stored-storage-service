@@ -41,7 +41,7 @@ const Blog = () => {
                         <img src={blogs[2].imageUrl} alt="Blog image"/>
                     )}
                     <div className='flex gap-2 mt-5 font-inter text-[14px]'>
-                        <span class="material-symbols-outlined">event_note</span>
+                        <span className="material-symbols-outlined">event_note</span>
                         {blogs[0]?.created &&(
                             <p> {new Date(blogs[0].created).toLocaleDateString('en-US', {
                                 year: 'numeric',
@@ -67,7 +67,7 @@ const Blog = () => {
                         <img src={blogs[1].imageUrl} alt="Blog image"/>
                     )}
                     <div className='date flex gap-2 mt-5 font-inter text-[14px]'>
-                        <span class="material-symbols-outlined">event_note</span>
+                        <span className="material-symbols-outlined">event_note</span>
                         {blogs[1]?.created &&(
                             <p> {new Date(blogs[1].created).toLocaleDateString('en-US', {
                                 year: 'numeric',
@@ -93,7 +93,7 @@ const Blog = () => {
                         <img src={blogs[0].imageUrl} alt="Blog image"/>
                     )}
                     <div className='date flex gap-2 mt-5 font-inter text-[14px]'>
-                        <span class="material-symbols-outlined">event_note</span>
+                        <span className="material-symbols-outlined">event_note</span>
                         {blogs[2]?.created &&(
                             <p> {new Date(blogs[2].created).toLocaleDateString('en-US', {
                                 year: 'numeric',
