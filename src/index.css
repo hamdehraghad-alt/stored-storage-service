@@ -285,6 +285,9 @@ h1{
     width: 321px;
     height: 156px;
     padding: .5rem .8rem;
+    &:hover{
+      border-color: var(--bg-accent);
+    }
   }
   h5{
     font-family: var(--second-font);
@@ -293,11 +296,14 @@ h1{
     color: var(--bg-secondry);
   }
   .Mission{
-    border: 1px solid var(--bg-accent);
+    border: 1px solid var(--bg-accent3);
     border-radius: 10px;
     width: 321px;
     height: 156px;
     padding: .5rem .8rem;
+    &:hover{
+      border-color: var(--bg-accent);
+    }
 
   }
   
@@ -383,11 +389,14 @@ h1{
     justify-items: center;  
   }
   .diverse{
-    border: 1px solid var(--bg-accent);
+    border: 1px solid var(--bg-accent3);
     border-radius: 10px;
     width: 390px;
     height: 155px;
     padding: .5rem .8rem;
+    &:hover{
+      border-color: var(--bg-accent);
+    }
     h4{
         margin-top: 20px;
         font-family: var(--second-font);
@@ -412,6 +421,9 @@ h1{
     height: 155px;
     padding: .5rem .8rem;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    &:hover{
+      border-color: var(--bg-accent);
+    }
     h4{
       margin-top: 20px;
       font-family: var(--second-font);
@@ -446,6 +458,9 @@ h1{
       height: 155px;
       padding: .5rem .8rem;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+      &:hover{
+        border-color: var(--bg-accent);
+    }
       h4{
         margin-top: 20px;
         font-family: var(--second-font);
@@ -469,6 +484,9 @@ h1{
       height: 155px;
       padding: .5rem .8rem;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+      &:hover{
+        border-color: var(--bg-accent);
+    }
       h4{
         margin-top: 20px;
         font-family: var(--second-font);
